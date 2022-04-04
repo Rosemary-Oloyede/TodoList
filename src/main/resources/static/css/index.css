@@ -1,0 +1,19 @@
+h1 {
+    font-size: 80%;
+    font-family: "papyrus", "cooperplate", fantasy;
+    text-align: center;
+    padding-top: 8%;
+    text-shadow: 4px 4px 4px orange;
+}
+
+h3 {
+    font-size: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+img {
+    inline-size: 90%;
+    max-inline-size: 1290px;
+    margin-left: 15%;
+}

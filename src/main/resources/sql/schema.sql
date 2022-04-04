@@ -9,5 +9,5 @@ CREATE TABLE IF NOT EXISTS tasks (
     name VARCHAR(255),
     category_id INTEGER REFERENCES categories (id),
 	created TIMESTAMP,
-    done BOOLEAN
+    done BOOLEAN NOT NULL DEFAULT FALSE
 );

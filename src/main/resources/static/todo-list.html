@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/todo-list.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="container">
+        <h1> <img id="todo-icon" src="/img/icon.jpg" alt="" width="120px" height="120px"> Todo List </h1>
+        <div id="date" class="date"></div>
+        <!--serve per inserire l'elenco degli elementi da fare-->
+        <input type="text" id="task-content" placeholder="add something to do...">
+        <button class="btn btn" id="add-button">✓</button>
+        <div>
+            <select class="category" id="list-category">
+                <option selected>....</option>
+                <!--Le categorie stanno nel database pdAdmin-->
+            </select>
+        </div>
+        <div id="tasks-list">
+                <!--rimane vuoto fino a quando l'utente non inserisce le cose da fare-->
+        </div>
+        <div class="counter-box">
+            <div id="counter-text">You have completed <span id="counter-done-task">0</span> tasks</div>
+        </div>
+        <button class="btn btn" type="button" id="button-remove-all">Clear All</button>
+    </div>
+    <img id="scheduling" src="/img/40_F_492546477_bwmS8MFealNSiDdkD4cvrCibULLOB7iJ.jpg" alt="" >
+    <script src="./js/todo-list.js"></script>
+    <script src="https://kit.fontawesome.com/525fd5b530.js" crossorigin="anonymous"></script>
+</body>
+</html>

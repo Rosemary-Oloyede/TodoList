@@ -1,0 +1,82 @@
+.container {
+    padding-top: 60px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "papyrus", "cooperplate", fantasy;
+    font-weight: bold;
+    font-stretch: extra-condensed;
+    font-size: 80%;
+    color: orange;
+    padding-bottom: 20px;
+}
+
+.date {
+    text-align: center;
+    font-family: "papyrus", "cooperplate", fantasy;
+    font-size: larger;
+}
+
+#task-content {
+    width: 60%;
+    height: 10%;
+    padding: 2%;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+#add-button {
+    width: 40px;
+    height: 40px; 
+    margin-left: 10px;
+    color: black;
+    border-radius: 25px;
+    border: 1px solid;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.category {
+    margin-top: 15px;
+    width: 15%;
+    height: 25%;
+}
+
+#tasks-list {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#counter-text {
+    font-family: "papyrus", "cooperplate", fantasy;
+    font-size: larger;
+    margin-top: 80px;
+}
+
+#button-remove-all {
+    width: 15%;
+    font-size: large;
+    border: 1px solid orange;
+    margin-top: 15px;
+    float: right;
+}
+
+#scheduling {
+    width: 600px;
+    height: 500px;
+    padding-left: 80px;
+}
+
+.trash {
+    margin-right: 10px;
+    margin-left: 60px;
+    color: lightskyblue;
+}
+
+.pen {
+    border: none;
+    color: rgb(171, 171, 250);
+    background-color: white;
+}
